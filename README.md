@@ -11,4 +11,4 @@ Breaking Spears is a Fabric mod for Minecraft `1.21.11` that adds a fast, cinema
 
 ## Version
 
-Current mod version: `1.1.0`.
+Current mod version: `1.2.0`.

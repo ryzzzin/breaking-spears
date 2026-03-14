@@ -3,7 +3,7 @@
 	"id": "breaking_spears",
 	"version": "${version}",
 	"name": "Breaking Spears",
-	"description": "Break glass panes while gliding fast with a raised spear.",
+	"description": "Break glass panes with raised spears while gliding and shatter blocks with Breaking-enchanted tridents.",
 	"authors": [
 		"rysin"
 	],
