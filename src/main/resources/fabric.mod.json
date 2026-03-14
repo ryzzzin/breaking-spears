@@ -1,31 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "breaking_spears",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Breaking Spears",
+	"description": "Break glass panes while gliding fast with a raised spear.",
 	"authors": [
-		"Me!"
+		"rysin"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
+	"contact": {},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/breaking_spears/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.example.BreakingSpearsMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.example.BreakingSpearsModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"breaking_spears.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "breaking_spears.client.mixins.json",
 			"environment": "client"
 		}
 	],
@@ -35,7 +32,5 @@
 		"java": ">=21",
 		"fabric-api": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }
