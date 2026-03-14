@@ -1,9 +1,13 @@
 # Breaking Spears
 
-## Setup
+Fabric mod for Minecraft `1.21.11`.
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up) that relates to the IDE that you are using.
+## Features
 
-## License
+- Elytra + raised spear/trident can break glass panes in front of the player.
+- Adds enchantment `Breaking` (`Разрушитель`) for tridents, levels `I-III`.
+- Thrown trident with `Breaking` can destroy one block per throw (with level-based drop chance).
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Version
+
+Current mod version: `1.1.0`.
